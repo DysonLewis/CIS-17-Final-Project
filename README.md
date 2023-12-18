@@ -36,8 +36,12 @@ Chess is a two-player strategy board game. The objective is to checkmate the opp
 8. **En Passant:**
    - A pawn capturing move that occurs immediately after a pawn advances two squares from its starting position.
 
-9. **Stalemate:**
-   - The game ends in a draw if a player has no legal moves but is not in check.
+9. **Check and Checkmate:**
+   - **Check:** A king is in check when it is under attack. The player must make a move to remove the threat.
+   - **Checkmate:** The game ends when a king is in check, and there is no legal move to escape. This results in a victory for the attacking player.
+
+10. **Stalemate:**
+    - The game ends in a draw if a player has no legal moves but is not in check.
 
 ## Data Structures and Algorithms
 The program uses various data structures and algorithms to implement the chess logic efficiently.
