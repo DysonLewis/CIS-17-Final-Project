@@ -41,7 +41,7 @@ Chess is a two-player strategy board game. The objective is to checkmate the opp
    - **Checkmate:** The game ends when a king is in check, and there is no legal move to escape. This results in a victory for the attacking player.
 
 10. **Stalemate:**
-    - The game ends in a draw if a player has no legal moves but is not in check.
+    - The game ends in a draw if a player has no legal moves but is not in check, or if there has a been a 3-fold repitition in moves (player has kept readting the same move over and over again)
 
 ## Data Structures and Algorithms
 The program uses various data structures and algorithms to implement the chess logic efficiently.
